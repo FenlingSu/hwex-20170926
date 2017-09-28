@@ -137,11 +137,12 @@ public class MainFrame extends Frame {
             }
         });
 
-        labsun.setBounds(sunw,sunh,30,30);                          //太陽
-        this.add(labsun);
 
         labboom.setBounds(labgunX,bulY,13,20);                      //子彈
         this.add(labboom);
+
+        labsun.setBounds(sunw,sunh,30,30);                          //太陽
+        this.add(labsun);
 
         labhit.setBounds(160,390,80,30);                      //得分
         this.add(labhit);
@@ -174,7 +175,8 @@ public class MainFrame extends Frame {
                         flag = true;
                     }
                 }
-                if ( labgunX >= sunw - 5 && labgunX <= sunw + 20 && bulY == sunh) {
+                if ( labgunX >= sunw - 5 && labgunX <= sunw + 20 && bulY <= sunh + 10 && bulY >= sunh - 40) {
+
                     ran = (int) (Math.random() * (MainFrame.this.getWidth() - 80) + 50);    //產生亂數
                     sunw = ran;
                     ran2 = (int) (Math.random() * (MainFrame.this.getHeight() - 350) + 50); //產生亂數
