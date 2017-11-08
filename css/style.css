@@ -1,0 +1,92 @@
+
+#wrap{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+#login{
+    padding-top: 0em;
+    float: right;
+}
+
+.login a{
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-style: outset;
+    border-color: #FFFFFF;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #212121;
+    border-radius: 8px;
+    border-style: outset;
+    border-color: #212121;
+    text-shadow: 1px 1px  #ffffff;
+    box-shadow: 1px 1px  #ffffff;
+
+}
+
+
+#header{
+    padding-top: 0em;
+    background-color: #444444;
+    border-radius:10px;
+}
+
+#header h4{
+    text-align: right;
+    border-radius:60px;
+}
+
+#header h1{
+    text-align: center;
+    border-radius:60px;
+}
+
+#nav {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius:60px;
+}
+.nav a{
+    color:white;
+    text-decoration:none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.nav a:hover{
+    color:black;
+    text-decoration:none;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.nav td:hover {
+    background-color: #DDDDDD;
+    border-radius:30px;
+}
+
+#aside {
+    width:25%;
+    background-color: #444444;
+    border-radius:20px;
+    color: white;
+    float:left;
+    margin: 18px auto 18px auto ;
+}
+
+#section{
+    width: 73%;
+    height:550px;
+    background-color: #444444;
+    border-radius:20px;
+    color: white;
+    float: right;
+    margin: 18px auto 18px auto ;
+}
+
+#footer{
+    text-align: center;
+    color:#AAAAAA;
+    text-shadow: 0.2em 0.2em 0.5em black;
+    clear: both;
+}
